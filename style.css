@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-video {
+  position: fixed;
+  z-index: -1000;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+#own-video {
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+  float: left;
+  color: black;
+  padding: 10px 12px;
+  font-size: 17px;
+}
+
+a:hover {
+  cursor: pointer;
+}
+.nav-bar {
+  position: fixed;
+  padding: 12px;
+}
+
+#nav-link {
+  padding-left: 800px;
+}
+
+h1 {
+  padding-top: 150;
+  font-size: 50px;
+  padding-left: 20;
+  color: black;
+  padding-bottom: 20;
+}
+
+.where {
+  color: rgb(43, 43, 233);
+}
+
+.main-body {
+  position: absolute;
+  width: 50%;
+  color: #ffffff;
+  left: 90px;
+}
+
+.booking {
+  background-color: #ffffff;
+  width: 88%;
+  height: 450px;
+  color: #ffffff;
+  padding: 20px 50px 10px 50px;
+}
+
+.form-begins {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.511);
+  margin: 0;
+  padding: 0;
+}
+
+.radio-btn,
+.onebtn,
+input {
+  border: none;
+  cursor: pointer;
+  color: black;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.511);
+  padding: 15px 5px 15px 0px;
+  font-size: 16px;
+}
+
+.multi-city,
+button {
+  border: none;
+  background-color: white;
+  border-bottom: none;
+  padding-left: 100px;
+  font-size: 16px;
+}
+
+.multi-city:focus {
+  outline: none;
+  border: none;
+}
+
+input[type="radio"] {
+  margin: 0px 12px 0px 0px;
+}
+
+input[class="onebtn"] {
+  margin-left: 40px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.frm,
+.to {
+  min-width: 49.5%;
+}
+
+.passenger {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.511);
+  font-size: 16px;
+  padding: 0px 20px 10px 0px;
+}
+
+.passenger:focus {
+  outline: none;
+  border: none;
+}
+
+.date {
+  display: inline;
+}
+
+label {
+  color: rgba(0, 0, 0, 0.374);
+  display: block;
+  padding: 20px 0px 0px 5px;
+  font-size: 16px;
+}
+.sf {
+  width: 100%;
+  color: #ffffff;
+  background-color: rgb(34, 181, 255);
+  text-align: center;
+  padding: 15px 50px 15px 0px;
+}
+
+.bottom a {
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 30px 15px 12px 0px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 350;
+}
+
+h4 {
+  position: absolute;
+  text-orientation: upright;
+  margin-top: 450px;
+  margin-left: 20px;
+  writing-mode: vertical-rl;
+}
